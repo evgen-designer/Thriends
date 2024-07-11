@@ -1,5 +1,5 @@
 //
-//  ScratcAppIcon.swift
+//  ScratchIcon.swift
 //  Thriends
 //
 //  Created by Mac on 11/07/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScratcAppIcon: View {
+struct ScratchIcon: View {
     var body: some View {
         ZStack {
             Color.black
@@ -95,5 +95,5 @@ struct CustomGradient: View {
 }
 
 #Preview {
-    ScratcAppIcon()
+    ScratchIcon()
 }
