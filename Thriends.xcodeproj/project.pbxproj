@@ -11,6 +11,7 @@
 		0470CB7F2C3FB53B0024CEB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470CB7E2C3FB53B0024CEB6 /* ContentView.swift */; };
 		0470CB812C3FB53D0024CEB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0470CB802C3FB53D0024CEB6 /* Assets.xcassets */; };
 		0470CB842C3FB53D0024CEB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0470CB832C3FB53D0024CEB6 /* Preview Assets.xcassets */; };
+		0470CB8B2C3FB57C0024CEB6 /* ScratcAppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470CB8A2C3FB57C0024CEB6 /* ScratcAppIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0470CB7E2C3FB53B0024CEB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0470CB802C3FB53D0024CEB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0470CB832C3FB53D0024CEB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0470CB8A2C3FB57C0024CEB6 /* ScratcAppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratcAppIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0470CB7C2C3FB53B0024CEB6 /* ThriendsApp.swift */,
 				0470CB7E2C3FB53B0024CEB6 /* ContentView.swift */,
+				0470CB8A2C3FB57C0024CEB6 /* ScratcAppIcon.swift */,
 				0470CB802C3FB53D0024CEB6 /* Assets.xcassets */,
 				0470CB822C3FB53D0024CEB6 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0470CB7F2C3FB53B0024CEB6 /* ContentView.swift in Sources */,
+				0470CB8B2C3FB57C0024CEB6 /* ScratcAppIcon.swift in Sources */,
 				0470CB7D2C3FB53B0024CEB6 /* ThriendsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
