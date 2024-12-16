@@ -16,6 +16,8 @@
 		0470CB952C3FC4290024CEB6 /* ThreadsLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470CB942C3FC4290024CEB6 /* ThreadsLogo.swift */; };
 		0470CB972C3FCAC60024CEB6 /* FlipTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470CB962C3FCAC60024CEB6 /* FlipTicket.swift */; };
 		0470CB992C3FCB040024CEB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470CB982C3FCB040024CEB6 /* ContentView.swift */; };
+		048DB1552D100F1D00703318 /* BlueSkyLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DB1542D100F1D00703318 /* BlueSkyLogo.swift */; };
+		048DB1572D100F5500703318 /* B100View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DB1562D100F5500703318 /* B100View.swift */; };
 		04CCA7222CE729B0002AD37B /* T400View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA7212CE729B0002AD37B /* T400View.swift */; };
 		04CCA7242CE729BB002AD37B /* T500View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA7232CE729BB002AD37B /* T500View.swift */; };
 		04CCA7262CE729CA002AD37B /* T600View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA7252CE729CA002AD37B /* T600View.swift */; };
@@ -35,6 +37,8 @@
 		0470CB942C3FC4290024CEB6 /* ThreadsLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsLogo.swift; sourceTree = "<group>"; };
 		0470CB962C3FCAC60024CEB6 /* FlipTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTicket.swift; sourceTree = "<group>"; };
 		0470CB982C3FCB040024CEB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		048DB1542D100F1D00703318 /* BlueSkyLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSkyLogo.swift; sourceTree = "<group>"; };
+		048DB1562D100F5500703318 /* B100View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B100View.swift; sourceTree = "<group>"; };
 		04CCA7212CE729B0002AD37B /* T400View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T400View.swift; sourceTree = "<group>"; };
 		04CCA7232CE729BB002AD37B /* T500View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T500View.swift; sourceTree = "<group>"; };
 		04CCA7252CE729CA002AD37B /* T600View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T600View.swift; sourceTree = "<group>"; };
@@ -80,12 +84,14 @@
 				04CCA7212CE729B0002AD37B /* T400View.swift */,
 				04CCA7232CE729BB002AD37B /* T500View.swift */,
 				04CCA7252CE729CA002AD37B /* T600View.swift */,
+				048DB1562D100F5500703318 /* B100View.swift */,
 				04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */,
 				0470CB8E2C3FBF3E0024CEB6 /* ScratchIcon.swift */,
 				0470CB922C3FC1A00024CEB6 /* ConfettiLogo.swift */,
 				0470CB942C3FC4290024CEB6 /* ThreadsLogo.swift */,
 				04CCA7272CE72A94002AD37B /* ThreadsLogoLine.swift */,
 				0470CB8C2C3FBF140024CEB6 /* LogoPathAddCurve.swift */,
+				048DB1542D100F1D00703318 /* BlueSkyLogo.swift */,
 				0470CB802C3FB53D0024CEB6 /* Assets.xcassets */,
 				0470CB822C3FB53D0024CEB6 /* Preview Content */,
 			);
@@ -170,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048DB1552D100F1D00703318 /* BlueSkyLogo.swift in Sources */,
 				0470CB8D2C3FBF140024CEB6 /* LogoPathAddCurve.swift in Sources */,
 				0470CB952C3FC4290024CEB6 /* ThreadsLogo.swift in Sources */,
 				04CCA7262CE729CA002AD37B /* T600View.swift in Sources */,
@@ -179,6 +186,7 @@
 				0470CB8F2C3FBF3E0024CEB6 /* ScratchIcon.swift in Sources */,
 				04CCA7222CE729B0002AD37B /* T400View.swift in Sources */,
 				0470CB932C3FC1A00024CEB6 /* ConfettiLogo.swift in Sources */,
+				048DB1572D100F5500703318 /* B100View.swift in Sources */,
 				0470CB972C3FCAC60024CEB6 /* FlipTicket.swift in Sources */,
 				0470CB7D2C3FB53B0024CEB6 /* ThriendsApp.swift in Sources */,
 				04CCA7282CE72A94002AD37B /* ThreadsLogoLine.swift in Sources */,
