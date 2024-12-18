@@ -24,6 +24,7 @@
 		04CCA7282CE72A94002AD37B /* ThreadsLogoLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA7272CE72A94002AD37B /* ThreadsLogoLine.swift */; };
 		04CCA72A2CE72BC4002AD37B /* T300View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA7292CE72BC4002AD37B /* T300View.swift */; };
 		04CCA72C2CE73556002AD37B /* AnimatedFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */; };
+		04FC43F82D12A9E900E12554 /* T700View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC43F72D12A9E900E12554 /* T700View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		04CCA7272CE72A94002AD37B /* ThreadsLogoLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsLogoLine.swift; sourceTree = "<group>"; };
 		04CCA7292CE72BC4002AD37B /* T300View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T300View.swift; sourceTree = "<group>"; };
 		04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedFlags.swift; sourceTree = "<group>"; };
+		04FC43F72D12A9E900E12554 /* T700View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T700View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				04CCA7212CE729B0002AD37B /* T400View.swift */,
 				04CCA7232CE729BB002AD37B /* T500View.swift */,
 				04CCA7252CE729CA002AD37B /* T600View.swift */,
+				04FC43F72D12A9E900E12554 /* T700View.swift */,
 				048DB1562D100F5500703318 /* B100View.swift */,
 				04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */,
 				0470CB8E2C3FBF3E0024CEB6 /* ScratchIcon.swift */,
@@ -191,6 +194,7 @@
 				0470CB7D2C3FB53B0024CEB6 /* ThriendsApp.swift in Sources */,
 				04CCA7282CE72A94002AD37B /* ThreadsLogoLine.swift in Sources */,
 				04CCA72A2CE72BC4002AD37B /* T300View.swift in Sources */,
+				04FC43F82D12A9E900E12554 /* T700View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
