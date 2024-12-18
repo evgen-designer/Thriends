@@ -23,32 +23,32 @@ struct T700View: View {
     let animationInterval: TimeInterval = 0.02
     
     var body: some View {
-        Canvas { context, size in
-            
-            let rectangleRect = CGRect(
-                x: size.width / 2 - 100,
-                y: size.height / 2 + 70,
-                width: 200,
-                height: 50
-            )
-            
-            context.addFilter(.alphaThreshold(min: 0.4))
-            context.addFilter(.blur(radius: 10))
-            context.drawLayer { drawingContext in
-                for circle in circles {
-                    let circleRect = CGRect(
-                        x: circle.xOffset + size.width / 2 - circle.size / 2,
-                        y: circle.yOffset + size.height / 2 - circle.size / 2,
-                        width: circle.size,
-                        height: circle.size
-                    )
-                    drawingContext.fill(Path(ellipseIn: circleRect), with: .color(.blue))
-                    drawingContext.fill(Path(roundedRect: rectangleRect, cornerRadius: 24), with: .color(.red))
+        ZStack {
+            Canvas { context, size in
+                
+                context.addFilter(.alphaThreshold(min: 0.4))
+                context.addFilter(.blur(radius: 10))
+                context.drawLayer { drawingContext in
+                    for circle in circles {
+                        let circleRect = CGRect(
+                            x: circle.xOffset + size.width / 2 - circle.size / 2,
+                            y: circle.yOffset + size.height / 3 - circle.size / 2,
+                            width: circle.size,
+                            height: circle.size
+                        )
+                        drawingContext.fill(Path(ellipseIn: circleRect), with: .color(.blue))
+                    }
                 }
             }
-        }
-        .onAppear {
-            setupAnimation()
+            .ignoresSafeArea()
+            .onAppear {
+                setupAnimation()
+            }
+            
+            GeometryReader { geometry in
+                Threads700()
+                    .position(x: geometry.size.width / 2, y: 545)
+            }
         }
     }
     

@@ -26,6 +26,7 @@
 		04CCA72C2CE73556002AD37B /* AnimatedFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */; };
 		04FC43F82D12A9E900E12554 /* T700View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC43F72D12A9E900E12554 /* T700View.swift */; };
 		04FC43FA2D12B57800E12554 /* LiquidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC43F92D12B57800E12554 /* LiquidView.swift */; };
+		04FC43FC2D12BA7700E12554 /* Threads700.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC43FB2D12BA7700E12554 /* Threads700.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedFlags.swift; sourceTree = "<group>"; };
 		04FC43F72D12A9E900E12554 /* T700View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T700View.swift; sourceTree = "<group>"; };
 		04FC43F92D12B57800E12554 /* LiquidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidView.swift; sourceTree = "<group>"; };
+		04FC43FB2D12BA7700E12554 /* Threads700.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threads700.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				0470CB8C2C3FBF140024CEB6 /* LogoPathAddCurve.swift */,
 				048DB1542D100F1D00703318 /* BlueSkyLogo.swift */,
 				04FC43F92D12B57800E12554 /* LiquidView.swift */,
+				04FC43FB2D12BA7700E12554 /* Threads700.swift */,
 				0470CB802C3FB53D0024CEB6 /* Assets.xcassets */,
 				0470CB822C3FB53D0024CEB6 /* Preview Content */,
 			);
@@ -199,6 +202,7 @@
 				04CCA7282CE72A94002AD37B /* ThreadsLogoLine.swift in Sources */,
 				04CCA72A2CE72BC4002AD37B /* T300View.swift in Sources */,
 				04FC43F82D12A9E900E12554 /* T700View.swift in Sources */,
+				04FC43FC2D12BA7700E12554 /* Threads700.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

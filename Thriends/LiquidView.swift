@@ -32,4 +32,5 @@ struct LiquidView: View {
 
 #Preview {
     LiquidView()
+        .preferredColorScheme(.dark)
 }
