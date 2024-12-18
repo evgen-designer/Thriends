@@ -25,6 +25,7 @@
 		04CCA72A2CE72BC4002AD37B /* T300View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA7292CE72BC4002AD37B /* T300View.swift */; };
 		04CCA72C2CE73556002AD37B /* AnimatedFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */; };
 		04FC43F82D12A9E900E12554 /* T700View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC43F72D12A9E900E12554 /* T700View.swift */; };
+		04FC43FA2D12B57800E12554 /* LiquidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC43F92D12B57800E12554 /* LiquidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		04CCA7292CE72BC4002AD37B /* T300View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T300View.swift; sourceTree = "<group>"; };
 		04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedFlags.swift; sourceTree = "<group>"; };
 		04FC43F72D12A9E900E12554 /* T700View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T700View.swift; sourceTree = "<group>"; };
+		04FC43F92D12B57800E12554 /* LiquidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				04CCA7272CE72A94002AD37B /* ThreadsLogoLine.swift */,
 				0470CB8C2C3FBF140024CEB6 /* LogoPathAddCurve.swift */,
 				048DB1542D100F1D00703318 /* BlueSkyLogo.swift */,
+				04FC43F92D12B57800E12554 /* LiquidView.swift */,
 				0470CB802C3FB53D0024CEB6 /* Assets.xcassets */,
 				0470CB822C3FB53D0024CEB6 /* Preview Content */,
 			);
@@ -183,6 +186,7 @@
 				0470CB8D2C3FBF140024CEB6 /* LogoPathAddCurve.swift in Sources */,
 				0470CB952C3FC4290024CEB6 /* ThreadsLogo.swift in Sources */,
 				04CCA7262CE729CA002AD37B /* T600View.swift in Sources */,
+				04FC43FA2D12B57800E12554 /* LiquidView.swift in Sources */,
 				0470CB992C3FCB040024CEB6 /* ContentView.swift in Sources */,
 				04CCA72C2CE73556002AD37B /* AnimatedFlags.swift in Sources */,
 				04CCA7242CE729BB002AD37B /* T500View.swift in Sources */,
