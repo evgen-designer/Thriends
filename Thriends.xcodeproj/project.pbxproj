@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046DC8872D6CAB4900AD6E13 /* T800View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC8862D6CAB4900AD6E13 /* T800View.swift */; };
+		046DC8892D6CAE1900AD6E13 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 046DC8882D6CAE1900AD6E13 /* Shader.metal */; };
+		046DC88B2D6CAE3900AD6E13 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC88A2D6CAE3900AD6E13 /* MetalView.swift */; };
+		046DC88D2D6CB1F700AD6E13 /* Vector800View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DC88C2D6CB1F700AD6E13 /* Vector800View.swift */; };
 		0470CB7D2C3FB53B0024CEB6 /* ThriendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470CB7C2C3FB53B0024CEB6 /* ThriendsApp.swift */; };
 		0470CB812C3FB53D0024CEB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0470CB802C3FB53D0024CEB6 /* Assets.xcassets */; };
 		0470CB842C3FB53D0024CEB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0470CB832C3FB53D0024CEB6 /* Preview Assets.xcassets */; };
@@ -30,6 +34,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046DC8862D6CAB4900AD6E13 /* T800View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T800View.swift; sourceTree = "<group>"; };
+		046DC8882D6CAE1900AD6E13 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		046DC88A2D6CAE3900AD6E13 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		046DC88C2D6CB1F700AD6E13 /* Vector800View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector800View.swift; sourceTree = "<group>"; };
 		0470CB792C3FB53A0024CEB6 /* Thriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0470CB7C2C3FB53B0024CEB6 /* ThriendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThriendsApp.swift; sourceTree = "<group>"; };
 		0470CB802C3FB53D0024CEB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +109,10 @@
 				048DB1542D100F1D00703318 /* BlueSkyLogo.swift */,
 				04FC43F92D12B57800E12554 /* LiquidView.swift */,
 				04FC43FB2D12BA7700E12554 /* Threads700.swift */,
+				046DC8862D6CAB4900AD6E13 /* T800View.swift */,
+				046DC88C2D6CB1F700AD6E13 /* Vector800View.swift */,
+				046DC8882D6CAE1900AD6E13 /* Shader.metal */,
+				046DC88A2D6CAE3900AD6E13 /* MetalView.swift */,
 				0470CB802C3FB53D0024CEB6 /* Assets.xcassets */,
 				0470CB822C3FB53D0024CEB6 /* Preview Content */,
 			);
@@ -193,13 +205,17 @@
 				0470CB992C3FCB040024CEB6 /* ContentView.swift in Sources */,
 				04CCA72C2CE73556002AD37B /* AnimatedFlags.swift in Sources */,
 				04CCA7242CE729BB002AD37B /* T500View.swift in Sources */,
+				046DC8892D6CAE1900AD6E13 /* Shader.metal in Sources */,
 				0470CB8F2C3FBF3E0024CEB6 /* ScratchIcon.swift in Sources */,
 				04CCA7222CE729B0002AD37B /* T400View.swift in Sources */,
 				0470CB932C3FC1A00024CEB6 /* ConfettiLogo.swift in Sources */,
 				048DB1572D100F5500703318 /* B100View.swift in Sources */,
 				0470CB972C3FCAC60024CEB6 /* FlipTicket.swift in Sources */,
+				046DC8872D6CAB4900AD6E13 /* T800View.swift in Sources */,
+				046DC88B2D6CAE3900AD6E13 /* MetalView.swift in Sources */,
 				0470CB7D2C3FB53B0024CEB6 /* ThriendsApp.swift in Sources */,
 				04CCA7282CE72A94002AD37B /* ThreadsLogoLine.swift in Sources */,
+				046DC88D2D6CB1F700AD6E13 /* Vector800View.swift in Sources */,
 				04CCA72A2CE72BC4002AD37B /* T300View.swift in Sources */,
 				04FC43F82D12A9E900E12554 /* T700View.swift in Sources */,
 				04FC43FC2D12BA7700E12554 /* Threads700.swift in Sources */,
