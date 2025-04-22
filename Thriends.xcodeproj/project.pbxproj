@@ -28,6 +28,7 @@
 		04CCA7282CE72A94002AD37B /* ThreadsLogoLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA7272CE72A94002AD37B /* ThreadsLogoLine.swift */; };
 		04CCA72A2CE72BC4002AD37B /* T300View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA7292CE72BC4002AD37B /* T300View.swift */; };
 		04CCA72C2CE73556002AD37B /* AnimatedFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */; };
+		04FA20752DB82D0B00A3385B /* T900View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA20742DB82D0B00A3385B /* T900View.swift */; };
 		04FC43F82D12A9E900E12554 /* T700View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC43F72D12A9E900E12554 /* T700View.swift */; };
 		04FC43FA2D12B57800E12554 /* LiquidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC43F92D12B57800E12554 /* LiquidView.swift */; };
 		04FC43FC2D12BA7700E12554 /* Threads700.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC43FB2D12BA7700E12554 /* Threads700.swift */; };
@@ -56,6 +57,7 @@
 		04CCA7272CE72A94002AD37B /* ThreadsLogoLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsLogoLine.swift; sourceTree = "<group>"; };
 		04CCA7292CE72BC4002AD37B /* T300View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T300View.swift; sourceTree = "<group>"; };
 		04CCA72B2CE73556002AD37B /* AnimatedFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedFlags.swift; sourceTree = "<group>"; };
+		04FA20742DB82D0B00A3385B /* T900View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T900View.swift; sourceTree = "<group>"; };
 		04FC43F72D12A9E900E12554 /* T700View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T700View.swift; sourceTree = "<group>"; };
 		04FC43F92D12B57800E12554 /* LiquidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidView.swift; sourceTree = "<group>"; };
 		04FC43FB2D12BA7700E12554 /* Threads700.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threads700.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				046DC88C2D6CB1F700AD6E13 /* Vector800View.swift */,
 				046DC8882D6CAE1900AD6E13 /* Shader.metal */,
 				046DC88A2D6CAE3900AD6E13 /* MetalView.swift */,
+				04FA20742DB82D0B00A3385B /* T900View.swift */,
 				0470CB802C3FB53D0024CEB6 /* Assets.xcassets */,
 				0470CB822C3FB53D0024CEB6 /* Preview Content */,
 			);
@@ -205,6 +208,7 @@
 				0470CB992C3FCB040024CEB6 /* ContentView.swift in Sources */,
 				04CCA72C2CE73556002AD37B /* AnimatedFlags.swift in Sources */,
 				04CCA7242CE729BB002AD37B /* T500View.swift in Sources */,
+				04FA20752DB82D0B00A3385B /* T900View.swift in Sources */,
 				046DC8892D6CAE1900AD6E13 /* Shader.metal in Sources */,
 				0470CB8F2C3FBF3E0024CEB6 /* ScratchIcon.swift in Sources */,
 				04CCA7222CE729B0002AD37B /* T400View.swift in Sources */,
